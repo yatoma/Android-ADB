@@ -1,0 +1,1061 @@
+// Here are some logs from the app ToDo list catched out over Android Studio.
+
+2021-07-12 18:56:17.125 31229-31229/com.android.todolist D/ViewRootImpl@476aa0e[ListActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=9 res=0x7 s={true 485867032576} ch=true
+2021-07-12 18:56:17.126 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x70b56fbf00(0x711fee9000)
+2021-07-12 18:56:17.127 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [1080x2280] return: 0x3000
+2021-07-12 18:56:17.134 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x711fd84c80
+2021-07-12 18:56:17.139 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x70c4e5ae80
+2021-07-12 18:56:17.153 31229-31229/com.android.todolist D/ViewRootImpl@476aa0e[ListActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 18:56:17.153 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@d94eb97[ListActivity]
+2021-07-12 18:56:17.153 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:56:17.159 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@d94eb97[ListActivity]
+2021-07-12 18:56:17.159 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:56:17.159 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 18:56:17.159 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 18:56:17.159 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 18:56:17.163 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=92
+2021-07-12 18:56:17.168 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4e5ae80 -> 0x711fd84c80
+2021-07-12 18:56:17.168 31229-31229/com.android.todolist D/ViewRootImpl@476aa0e[ListActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,126) vi=(0,90,0,126) or=1
+2021-07-12 18:56:17.351 31229-31246/com.android.todolist V/Toast: HIDE: android.widget.Toast$TN@9ef6fe7
+2021-07-12 18:56:17.351 31229-31229/com.android.todolist V/Toast: HANDLE HIDE: android.widget.Toast$TN@9ef6fe7 mView=android.widget.LinearLayout{2b53794 V.E...... ........ 0,0-153,116}
+2021-07-12 18:56:17.352 31229-31229/com.android.todolist V/Toast: REMOVE! android.widget.LinearLayout{2b53794 V.E...... ........ 0,0-153,116} in android.widget.Toast$TN@9ef6fe7
+2021-07-12 18:56:17.352 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c4beac00
+2021-07-12 18:56:17.352 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 18:56:17.353 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [153x116] return
+2021-07-12 18:56:17.353 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 18:56:17.353 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x7126c1dd50 disconnect failed
+2021-07-12 18:56:17.353 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x7126c1dd40
+2021-07-12 18:56:17.353 31229-31229/com.android.todolist D/ViewRootImpl@9392383[Toast]: dispatchDetachedFromWindow
+2021-07-12 18:56:17.356 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'cb6bcfd', fd=82
+2021-07-12 18:56:17.360 31229-31246/com.android.todolist V/Toast: SHOW: android.widget.Toast$TN@da6b26c
+2021-07-12 18:56:17.360 31229-31229/com.android.todolist V/Toast: HANDLE SHOW: android.widget.Toast$TN@da6b26c mView=null mNextView=android.widget.LinearLayout{5df1035 V.E...... ......I. 0,0-0,0}
+2021-07-12 18:56:17.360 31229-31229/com.android.todolist V/Toast: HANDLE HIDE: android.widget.Toast$TN@da6b26c mView=null
+2021-07-12 18:56:17.368 31229-31229/com.android.todolist D/ViewRootImpl@7828958[Toast]: setView = android.widget.LinearLayout@5df1035 TM=true MM=false
+2021-07-12 18:56:17.369 31229-31229/com.android.todolist V/Toast: Text: 4 in android.widget.Toast$TN@da6b26c
+2021-07-12 18:56:17.381 31229-31229/com.android.todolist D/ViewRootImpl@7828958[Toast]: Relayout returned: old=(0,90,1080,2154) new=(463,1870,616,1986) req=(153,116)0 dur=5 res=0x7 s={true 488453505024} ch=true
+2021-07-12 18:56:17.381 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x7126c1dd40(0x71ba190000)
+2021-07-12 18:56:17.383 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [153x116] return: 0x3000
+2021-07-12 18:56:17.384 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x70c4beac00
+2021-07-12 18:56:17.393 31229-31229/com.android.todolist D/ViewRootImpl@7828958[Toast]: MSG_RESIZED: frame=(463,1870,616,1986) ci=(0,0,0,0) vi=(0,0,153,116) or=1
+2021-07-12 18:56:17.476 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c4e5ae80
+2021-07-12 18:56:17.476 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 18:56:17.478 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [1080x2280] return
+2021-07-12 18:56:17.478 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 18:56:17.478 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x7126c1dc10 disconnect failed
+2021-07-12 18:56:17.478 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x7126c1dc00
+2021-07-12 18:56:17.483 31229-31229/com.android.todolist D/ViewRootImpl@dd33a94[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=5 res=0x5 s={false 0} ch=true
+2021-07-12 18:56:17.483 31229-31229/com.android.todolist D/ViewRootImpl@dd33a94[MainActivity]: stopped(true) old=false
+2021-07-12 18:56:17.496 31229-31229/com.android.todolist D/ViewRootImpl@dd33a94[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=5 res=0x5 s={false 0} ch=false
+2021-07-12 18:56:17.806 31229-31229/com.android.todolist D/ViewRootImpl@476aa0e[ListActivity]: ViewPostIme pointer 0
+2021-07-12 18:56:17.872 31229-31229/com.android.todolist D/ViewRootImpl@476aa0e[ListActivity]: ViewPostIme pointer 1
+2021-07-12 18:56:17.876 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beac00 -> 0x711fd84c80
+2021-07-12 18:56:17.902 31229-31229/com.android.todolist W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@6be10ed
+2021-07-12 18:56:17.912 31229-31229/com.android.todolist D/PhoneWindow: forceLight changed to true [] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4268 com.android.internal.policy.DecorView.updateColorViews:1494 com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged:3246 android.view.Window.setFlags:1148 com.android.internal.policy.PhoneWindow.generateLayout:2474
+2021-07-12 18:56:17.913 31229-31229/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@ef7cee9[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+2021-07-12 18:56:17.913 31229-31229/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@ef7cee9[]
+2021-07-12 18:56:17.970 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: setView = com.android.internal.policy.DecorView@ef7cee9 TM=true MM=false
+2021-07-12 18:56:18.012 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=8 res=0x7 s={true 484340645888} ch=true
+2021-07-12 18:56:18.014 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x7126c1dc00(0x70c4f3c000)
+2021-07-12 18:56:18.014 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [1080x2280] return: 0x3000
+2021-07-12 18:56:18.059 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x70c4bf7400
+2021-07-12 18:56:18.063 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84c80
+2021-07-12 18:56:18.064 31229-31229/com.android.todolist D/ViewRootImpl@476aa0e[ListActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-07-12 18:56:18.064 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@d94eb97[ListActivity]
+2021-07-12 18:56:18.064 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:56:18.084 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x70c4bf7400
+2021-07-12 18:56:18.089 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84c80
+2021-07-12 18:56:18.089 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 18:56:18.089 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:56:18.089 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:56:18.091 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:56:18.091 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:56:18.091 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 18:56:18.091 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 18:56:18.091 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 18:56:18.095 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=88
+2021-07-12 18:56:18.095 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,126) vi=(0,90,0,126) or=1
+2021-07-12 18:56:18.098 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x70c4bf7400
+2021-07-12 18:56:18.113 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84c80
+2021-07-12 18:56:18.125 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x70c4bf7400
+2021-07-12 18:56:18.128 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84c80
+2021-07-12 18:56:18.142 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x70c4bf7400
+2021-07-12 18:56:18.145 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84c80
+2021-07-12 18:56:18.159 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x70c4bf7400
+2021-07-12 18:56:18.162 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84c80
+2021-07-12 18:56:18.176 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x70c4bf7400
+2021-07-12 18:56:18.179 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84c80
+2021-07-12 18:56:18.192 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x70c4bf7400
+2021-07-12 18:56:18.195 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84c80
+2021-07-12 18:56:18.208 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x70c4bf7400
+2021-07-12 18:56:18.212 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84c80
+2021-07-12 18:56:18.226 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x70c4bf7400
+2021-07-12 18:56:18.229 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84c80
+2021-07-12 18:56:18.395 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84c80 -> 0x0
+2021-07-12 18:56:18.395 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x711fd84c80
+2021-07-12 18:56:18.395 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 18:56:18.396 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [1080x2280] return
+2021-07-12 18:56:18.396 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 18:56:18.397 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x70b56fbf10 disconnect failed
+2021-07-12 18:56:18.397 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x70b56fbf00
+2021-07-12 18:56:18.403 31229-31229/com.android.todolist D/ViewRootImpl@476aa0e[ListActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=5 res=0x5 s={false 0} ch=true
+2021-07-12 18:56:18.403 31229-31229/com.android.todolist D/ViewRootImpl@476aa0e[ListActivity]: stopped(true) old=false
+2021-07-12 18:56:18.408 31229-31229/com.android.todolist D/ViewRootImpl@476aa0e[ListActivity]: dispatchDetachedFromWindow
+2021-07-12 18:56:18.411 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: '9aa3295', fd=85
+2021-07-12 18:56:19.361 31229-31798/com.android.todolist V/Toast: HIDE: android.widget.Toast$TN@da6b26c
+2021-07-12 18:56:19.361 31229-31229/com.android.todolist V/Toast: HANDLE HIDE: android.widget.Toast$TN@da6b26c mView=android.widget.LinearLayout{5df1035 V.E...... ........ 0,0-153,116}
+2021-07-12 18:56:19.361 31229-31229/com.android.todolist V/Toast: REMOVE! android.widget.LinearLayout{5df1035 V.E...... ........ 0,0-153,116} in android.widget.Toast$TN@da6b26c
+2021-07-12 18:56:19.362 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c4beac00
+2021-07-12 18:56:19.362 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 18:56:19.363 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [153x116] return
+2021-07-12 18:56:19.363 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 18:56:19.363 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x7126c1dd50 disconnect failed
+2021-07-12 18:56:19.363 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x7126c1dd40
+2021-07-12 18:56:19.363 31229-31229/com.android.todolist D/ViewRootImpl@7828958[Toast]: dispatchDetachedFromWindow
+2021-07-12 18:56:19.367 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: '95c0561', fd=82
+2021-07-12 18:56:19.577 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x70c4bf7400
+2021-07-12 18:56:19.841 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:56:19.916 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:56:21.100 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:56:21.183 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:56:21.210 31229-31229/com.android.todolist D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2021-07-12 18:56:21.213 31229-31229/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@f54d94f[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2021-07-12 18:56:21.213 31229-31229/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@f54d94f[]
+2021-07-12 18:56:21.231 31229-31229/com.android.todolist D/ScrollView: initGoToTop
+2021-07-12 18:56:21.245 31229-31229/com.android.todolist D/ViewRootImpl@5d7d6d1[MainActivity]: setView = com.android.internal.policy.DecorView@f54d94f TM=true MM=false
+2021-07-12 18:56:21.283 31229-31229/com.android.todolist D/ViewRootImpl@5d7d6d1[MainActivity]: Relayout returned: old=(0,90,1080,2154) new=(28,838,1052,1406) req=(1024,568)0 dur=9 res=0x7 s={true 484336566272} ch=true
+2021-07-12 18:56:21.283 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x70b56fbdc0(0x70c4b58000)
+2021-07-12 18:56:21.284 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [1192x736] return: 0x3000
+2021-07-12 18:56:21.291 31229-31229/com.android.todolist D/ScrollView:  onsize change changed
+2021-07-12 18:56:21.293 31229-31229/com.android.todolist E/DecorView: mWindow.mActivityCurrentConfig is null
+2021-07-12 18:56:21.297 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4ef0e00
+2021-07-12 18:56:21.303 31229-31229/com.android.todolist D/ViewRootImpl@5d7d6d1[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 18:56:21.304 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@f54d94f[MainActivity]
+2021-07-12 18:56:21.304 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:56:21.308 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@f54d94f[MainActivity]
+2021-07-12 18:56:21.308 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:56:21.308 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 18:56:21.308 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 18:56:21.308 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 18:56:21.310 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=90
+2021-07-12 18:56:21.312 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4ef0e00 -> 0x70c4bf7400
+2021-07-12 18:56:21.316 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4ef0e00
+2021-07-12 18:56:21.317 31229-31229/com.android.todolist D/ViewRootImpl@5d7d6d1[MainActivity]: MSG_RESIZED: frame=(28,838,1052,1406) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-07-12 18:56:21.317 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-07-12 18:56:21.317 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:56:21.317 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:56:21.329 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4ef0e00 -> 0x70c4bf7400
+2021-07-12 18:56:22.451 31229-31229/com.android.todolist D/ViewRootImpl@5d7d6d1[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:56:22.534 31229-31229/com.android.todolist D/ViewRootImpl@5d7d6d1[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:56:22.546 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4ef0e00
+2021-07-12 18:56:22.554 31229-31229/com.android.todolist D/Toast: show: focusDisplayId = 0, isFocusInDesktop = false mCustomDisplayId=-1
+2021-07-12 18:56:22.559 31229-31798/com.android.todolist V/Toast: SHOW: android.widget.Toast$TN@8f3d8c3
+2021-07-12 18:56:22.562 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4ef0e00 -> 0x0
+2021-07-12 18:56:22.562 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c4ef0e00
+2021-07-12 18:56:22.562 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 18:56:22.565 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [1192x736] return
+2021-07-12 18:56:22.565 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 18:56:22.566 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x70b56fbdd0 disconnect failed
+2021-07-12 18:56:22.566 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x70b56fbdc0
+2021-07-12 18:56:22.566 31229-31263/com.android.todolist D/OpenGLRenderer: endAllActiveAnimators on 0x70c4b4fa00 (RippleDrawable) with handle 0x70b55eb940
+2021-07-12 18:56:22.566 31229-31229/com.android.todolist D/ViewRootImpl@5d7d6d1[MainActivity]: dispatchDetachedFromWindow
+2021-07-12 18:56:22.571 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: '72d7622', fd=82
+2021-07-12 18:56:22.572 31229-31229/com.android.todolist V/Toast: HANDLE SHOW: android.widget.Toast$TN@8f3d8c3 mView=null mNextView=android.widget.LinearLayout{5b0e540 V.E...... ......I. 0,0-0,0}
+2021-07-12 18:56:22.572 31229-31229/com.android.todolist V/Toast: HANDLE HIDE: android.widget.Toast$TN@8f3d8c3 mView=null
+2021-07-12 18:56:22.581 31229-31229/com.android.todolist D/ViewRootImpl@5b13e1f[Toast]: setView = android.widget.LinearLayout@5b0e540 TM=true MM=false
+2021-07-12 18:56:22.581 31229-31229/com.android.todolist V/Toast: Text: Pper in android.widget.Toast$TN@8f3d8c3
+2021-07-12 18:56:22.589 31229-31229/com.android.todolist D/ViewRootImpl@5b13e1f[Toast]: Relayout returned: old=(0,90,1080,2154) new=(302,1870,778,1986) req=(476,116)0 dur=6 res=0x7 s={true 484336889856} ch=true
+2021-07-12 18:56:22.589 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x70b56fbdc0(0x70c4ba7000)
+2021-07-12 18:56:22.591 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [476x116] return: 0x3000
+2021-07-12 18:56:22.593 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x70c4ef0e00
+2021-07-12 18:56:22.598 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 18:56:22.599 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:56:22.599 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:56:22.602 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:56:22.602 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:56:22.602 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 18:56:22.602 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 18:56:22.602 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 18:56:22.605 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=85
+2021-07-12 18:56:22.606 31229-31229/com.android.todolist E/ViewRootImpl: sendUserActionEvent() mView returned.
+2021-07-12 18:56:22.612 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4ef0e00 -> 0x70c4bf7400
+2021-07-12 18:56:22.613 31229-31229/com.android.todolist D/ViewRootImpl@5b13e1f[Toast]: MSG_RESIZED: frame=(302,1870,778,1986) ci=(0,0,0,0) vi=(0,0,476,116) or=1
+2021-07-12 18:56:24.559 31229-31798/com.android.todolist V/Toast: HIDE: android.widget.Toast$TN@8f3d8c3
+2021-07-12 18:56:24.560 31229-31229/com.android.todolist V/Toast: HANDLE HIDE: android.widget.Toast$TN@8f3d8c3 mView=android.widget.LinearLayout{5b0e540 V.E...... ........ 0,0-476,116}
+2021-07-12 18:56:24.560 31229-31229/com.android.todolist V/Toast: REMOVE! android.widget.LinearLayout{5b0e540 V.E...... ........ 0,0-476,116} in android.widget.Toast$TN@8f3d8c3
+2021-07-12 18:56:24.561 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c4ef0e00
+2021-07-12 18:56:24.561 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 18:56:24.562 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [476x116] return
+2021-07-12 18:56:24.562 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 18:56:24.562 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x70b56fbdd0 disconnect failed
+2021-07-12 18:56:24.562 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x70b56fbdc0
+2021-07-12 18:56:24.563 31229-31229/com.android.todolist D/ViewRootImpl@5b13e1f[Toast]: dispatchDetachedFromWindow
+2021-07-12 18:56:24.565 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'd2a2e50', fd=82
+2021-07-12 18:57:07.070 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:57:09.079 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:57:24.280 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-07-12 18:57:24.280 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:57:24.280 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:57:24.356 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=88
+2021-07-12 18:57:24.688 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x0
+2021-07-12 18:57:24.688 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c4bf7400
+2021-07-12 18:57:24.688 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 18:57:24.689 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [1080x2280] return
+2021-07-12 18:57:24.689 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 18:57:24.689 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x7126c1dc10 disconnect failed
+2021-07-12 18:57:24.689 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x7126c1dc00
+2021-07-12 18:57:24.694 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=3 res=0x5 s={false 0} ch=true
+2021-07-12 18:57:24.695 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: stopped(true) old=false
+2021-07-12 18:57:24.709 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=4 res=0x5 s={false 0} ch=false
+2021-07-12 18:57:24.807 31229-31235/com.android.todolist I/ndroid.todolis: Compiler allocated 4270KB to compile void android.view.ViewRootImpl.performTraversals()
+2021-07-12 18:57:50.660 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)4 dur=12 res=0x1 s={false 0} ch=false
+2021-07-12 18:57:50.661 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: stopped(false) old=true
+2021-07-12 18:57:50.672 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: stopped(false) old=false
+2021-07-12 18:57:50.683 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=7 res=0x7 s={true 484336889856} ch=true
+2021-07-12 18:57:50.683 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x7126c1bf40(0x70c4ba7000)
+2021-07-12 18:57:50.685 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [1080x2280] return: 0x3000
+2021-07-12 18:57:50.688 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x70c4bf7400
+2021-07-12 18:57:50.693 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 18:57:50.693 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:57:50.693 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:57:50.695 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:57:50.695 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:57:50.695 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 18:57:50.695 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 18:57:50.695 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 18:58:44.358 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:58:44.477 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:58:44.560 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:58:44.669 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:58:45.303 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:58:45.344 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:58:45.496 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:58:45.555 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:58:45.696 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:58:45.771 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:58:45.930 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:58:45.969 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:59:37.850 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:59:37.994 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:59:38.401 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:59:38.493 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:59:50.271 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:59:50.359 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:59:51.106 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:59:51.152 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:59:51.159 31229-31229/com.android.todolist D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2021-07-12 18:59:51.164 31229-31229/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@708b19c[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2021-07-12 18:59:51.164 31229-31229/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@708b19c[]
+2021-07-12 18:59:51.180 31229-31229/com.android.todolist D/ScrollView: initGoToTop
+2021-07-12 18:59:51.193 31229-31229/com.android.todolist D/ViewRootImpl@4f727f7[MainActivity]: setView = com.android.internal.policy.DecorView@708b19c TM=true MM=false
+2021-07-12 18:59:51.217 31229-31229/com.android.todolist D/ViewRootImpl@4f727f7[MainActivity]: Relayout returned: old=(0,90,1080,2154) new=(28,865,1052,1378) req=(1024,513)0 dur=14 res=0x7 s={true 486061068288} ch=true
+2021-07-12 18:59:51.217 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x70b56fc7c0(0x712b7f5000)
+2021-07-12 18:59:51.221 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [1192x681] return: 0x3000
+2021-07-12 18:59:51.221 31229-31229/com.android.todolist D/ScrollView:  onsize change changed
+2021-07-12 18:59:51.223 31229-31229/com.android.todolist E/DecorView: mWindow.mActivityCurrentConfig is null
+2021-07-12 18:59:51.227 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84480
+2021-07-12 18:59:51.241 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84480 -> 0x70c4bf7400
+2021-07-12 18:59:51.250 31229-31229/com.android.todolist D/ViewRootImpl@4f727f7[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 18:59:51.252 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84480
+2021-07-12 18:59:51.259 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84480 -> 0x70c4bf7400
+2021-07-12 18:59:51.260 31229-31229/com.android.todolist D/ViewRootImpl@4f727f7[MainActivity]: MSG_RESIZED: frame=(28,865,1052,1378) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-07-12 18:59:51.266 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-07-12 18:59:51.266 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:59:51.266 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:51.590 31229-31235/com.android.todolist I/ndroid.todolis: Compiler allocated 4171KB to compile void android.view.ViewRootImpl.performTraversals()
+2021-07-12 18:59:52.013 31229-31229/com.android.todolist D/ViewRootImpl@4f727f7[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:59:52.094 31229-31229/com.android.todolist D/ViewRootImpl@4f727f7[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:59:52.107 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84480
+2021-07-12 18:59:52.113 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84480 -> 0x0
+2021-07-12 18:59:52.113 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x711fd84480
+2021-07-12 18:59:52.113 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 18:59:52.118 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [1192x681] return
+2021-07-12 18:59:52.118 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 18:59:52.119 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x70b56fc7d0 disconnect failed
+2021-07-12 18:59:52.119 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x70b56fc7c0
+2021-07-12 18:59:52.119 31229-31263/com.android.todolist D/OpenGLRenderer: endAllActiveAnimators on 0x70c4a01800 (RippleDrawable) with handle 0x70b55eb400
+2021-07-12 18:59:52.119 31229-31229/com.android.todolist D/ViewRootImpl@4f727f7[MainActivity]: dispatchDetachedFromWindow
+2021-07-12 18:59:52.125 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: '838bb41', fd=49
+2021-07-12 18:59:52.130 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x70c4bf7400
+2021-07-12 18:59:52.130 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 18:59:52.131 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:59:52.131 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:52.133 31229-31229/com.android.todolist E/ViewRootImpl: sendUserActionEvent() mView returned.
+2021-07-12 18:59:53.805 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:59:53.910 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:59:53.941 31229-31229/com.android.todolist D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2021-07-12 18:59:53.946 31229-31229/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@95e0e2c[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2021-07-12 18:59:53.946 31229-31229/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@95e0e2c[]
+2021-07-12 18:59:53.960 31229-31229/com.android.todolist D/ScrollView: initGoToTop
+2021-07-12 18:59:53.973 31229-31229/com.android.todolist D/ViewRootImpl@764bd2e[MainActivity]: setView = com.android.internal.policy.DecorView@95e0e2c TM=true MM=false
+2021-07-12 18:59:53.994 31229-31229/com.android.todolist D/ViewRootImpl@764bd2e[MainActivity]: Relayout returned: old=(0,90,1080,2154) new=(28,838,1052,1406) req=(1024,568)0 dur=9 res=0x7 s={true 485867683840} ch=true
+2021-07-12 18:59:53.996 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x70b56fc7c0(0x711ff88000)
+2021-07-12 18:59:54.000 31229-31229/com.android.todolist D/ScrollView:  onsize change changed
+2021-07-12 18:59:54.000 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [1192x736] return: 0x3000
+2021-07-12 18:59:54.002 31229-31229/com.android.todolist E/DecorView: mWindow.mActivityCurrentConfig is null
+2021-07-12 18:59:54.008 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84480
+2021-07-12 18:59:54.012 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84480 -> 0x70c4bf7400
+2021-07-12 18:59:54.014 31229-31229/com.android.todolist D/ViewRootImpl@764bd2e[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 18:59:54.014 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@95e0e2c[MainActivity]
+2021-07-12 18:59:54.014 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:54.021 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@95e0e2c[MainActivity]
+2021-07-12 18:59:54.021 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:54.021 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 18:59:54.022 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 18:59:54.022 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 18:59:54.027 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=82
+2021-07-12 18:59:54.030 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84480
+2021-07-12 18:59:54.031 31229-31229/com.android.todolist D/ViewRootImpl@764bd2e[MainActivity]: MSG_RESIZED: frame=(28,838,1052,1406) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-07-12 18:59:54.031 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-07-12 18:59:54.031 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:59:54.031 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:54.042 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84480 -> 0x70c4bf7400
+2021-07-12 18:59:54.799 31229-31229/com.android.todolist D/ViewRootImpl@764bd2e[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:59:54.807 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84480
+2021-07-12 18:59:54.878 31229-31229/com.android.todolist D/ViewRootImpl@764bd2e[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:59:54.887 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@95e0e2c[MainActivity]
+2021-07-12 18:59:54.887 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:54.887 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=com.android.internal.widget.EditableInputConnection@5c2bab6 mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 18:59:54.887 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 18:59:54.891 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 18:59:54.893 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=88
+2021-07-12 18:59:54.894 31229-31229/com.android.todolist D/InputMethodManager: SSI - flag : 0 Pid : 31229 view : com.android.todolist
+2021-07-12 18:59:54.894 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@95e0e2c[MainActivity]
+2021-07-12 18:59:54.894 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:54.899 31229-31229/com.android.todolist D/Editor: waiting for the right moment
+2021-07-12 18:59:54.906 31229-31229/com.android.todolist E/ndroid.todolis: Invalid ID 0x00000000.
+2021-07-12 18:59:54.910 31229-31229/com.android.todolist I/AssistStructure: Flattened final assist data: 3200 bytes, containing 2 windows, 25 views
+2021-07-12 18:59:55.014 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,986) vi=(0,90,0,986) or=1
+2021-07-12 18:59:55.027 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=4 res=0x1 s={true 484336889856} ch=false
+2021-07-12 18:59:55.033 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84480 -> 0x70c4bf7400
+2021-07-12 18:59:55.392 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x711fd84480
+2021-07-12 18:59:56.867 31229-31229/com.android.todolist D/ViewRootImpl@764bd2e[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:59:56.920 31229-31229/com.android.todolist D/ViewRootImpl@764bd2e[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:59:56.934 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fd84480 -> 0x0
+2021-07-12 18:59:56.934 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x711fd84480
+2021-07-12 18:59:56.934 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 18:59:56.939 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [1192x736] return
+2021-07-12 18:59:56.939 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 18:59:56.939 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x70b56fc7d0 disconnect failed
+2021-07-12 18:59:56.939 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x70b56fc7c0
+2021-07-12 18:59:56.939 31229-31263/com.android.todolist D/OpenGLRenderer: endAllActiveAnimators on 0x70c4b52c00 (RippleDrawable) with handle 0x7126d31200
+2021-07-12 18:59:56.939 31229-31229/com.android.todolist D/ViewRootImpl@764bd2e[MainActivity]: dispatchDetachedFromWindow
+2021-07-12 18:59:56.945 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'cde35b3', fd=80
+2021-07-12 18:59:56.955 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x70c4bf7400
+2021-07-12 18:59:56.955 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 18:59:56.956 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:59:56.956 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:56.957 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:59:56.957 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:56.957 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 18:59:56.957 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 18:59:56.957 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 18:59:56.966 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=83
+2021-07-12 18:59:56.967 31229-31229/com.android.todolist E/ViewRootImpl: sendUserActionEvent() mView returned.
+2021-07-12 18:59:57.001 31229-31229/com.android.todolist W/IInputConnectionWrapper: requestCursorAnchorInfo on inactive InputConnection
+2021-07-12 18:59:57.077 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,126) vi=(0,90,0,126) or=1
+2021-07-12 18:59:57.110 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=13 res=0x1 s={true 484336889856} ch=false
+2021-07-12 18:59:58.008 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:59:58.088 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:59:58.115 31229-31229/com.android.todolist D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2021-07-12 18:59:58.119 31229-31229/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@60578fd[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2021-07-12 18:59:58.120 31229-31229/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@60578fd[]
+2021-07-12 18:59:58.132 31229-31229/com.android.todolist D/ScrollView: initGoToTop
+2021-07-12 18:59:58.142 31229-31229/com.android.todolist D/ViewRootImpl@2fac997[MainActivity]: setView = com.android.internal.policy.DecorView@60578fd TM=true MM=false
+2021-07-12 18:59:58.162 31229-31229/com.android.todolist D/ViewRootImpl@2fac997[MainActivity]: Relayout returned: old=(0,90,1080,2154) new=(28,838,1052,1406) req=(1024,568)0 dur=13 res=0x7 s={true 484338417664} ch=true
+2021-07-12 18:59:58.164 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x70b56fca40(0x70c4d1c000)
+2021-07-12 18:59:58.166 31229-31229/com.android.todolist D/ScrollView:  onsize change changed
+2021-07-12 18:59:58.168 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [1192x736] return: 0x3000
+2021-07-12 18:59:58.169 31229-31229/com.android.todolist E/DecorView: mWindow.mActivityCurrentConfig is null
+2021-07-12 18:59:58.173 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4bf7480
+2021-07-12 18:59:58.176 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7480 -> 0x70c4bf7400
+2021-07-12 18:59:58.179 31229-31229/com.android.todolist D/ViewRootImpl@2fac997[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 18:59:58.179 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@60578fd[MainActivity]
+2021-07-12 18:59:58.179 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:58.180 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@60578fd[MainActivity]
+2021-07-12 18:59:58.180 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:58.180 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 18:59:58.180 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 18:59:58.181 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 18:59:58.185 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=80
+2021-07-12 18:59:58.187 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4bf7480
+2021-07-12 18:59:58.191 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7480 -> 0x70c4bf7400
+2021-07-12 18:59:58.192 31229-31229/com.android.todolist D/ViewRootImpl@2fac997[MainActivity]: MSG_RESIZED: frame=(28,838,1052,1406) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-07-12 18:59:58.192 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-07-12 18:59:58.192 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 18:59:58.192 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:58.732 31229-31229/com.android.todolist D/ViewRootImpl@2fac997[MainActivity]: ViewPostIme pointer 0
+2021-07-12 18:59:58.745 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4bf7480
+2021-07-12 18:59:58.759 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7480 -> 0x70c4bf7400
+2021-07-12 18:59:58.788 31229-31229/com.android.todolist D/ViewRootImpl@2fac997[MainActivity]: ViewPostIme pointer 1
+2021-07-12 18:59:58.794 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@60578fd[MainActivity]
+2021-07-12 18:59:58.794 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:58.794 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=com.android.internal.widget.EditableInputConnection@f0c7f7f mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 18:59:58.794 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 18:59:58.798 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 18:59:58.799 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=85
+2021-07-12 18:59:58.800 31229-31229/com.android.todolist D/InputMethodManager: SSI - flag : 0 Pid : 31229 view : com.android.todolist
+2021-07-12 18:59:58.800 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@60578fd[MainActivity]
+2021-07-12 18:59:58.800 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 18:59:58.804 31229-31229/com.android.todolist D/Editor: waiting for the right moment
+2021-07-12 18:59:58.813 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4bf7480
+2021-07-12 18:59:58.817 31229-31229/com.android.todolist E/ndroid.todolis: Invalid ID 0x00000000.
+2021-07-12 18:59:58.820 31229-31229/com.android.todolist I/AssistStructure: Flattened final assist data: 3200 bytes, containing 2 windows, 25 views
+2021-07-12 18:59:58.824 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7480 -> 0x70c4bf7400
+2021-07-12 18:59:58.828 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4bf7480
+2021-07-12 18:59:58.841 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7480 -> 0x70c4bf7400
+2021-07-12 18:59:58.894 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,986) vi=(0,90,0,986) or=1
+2021-07-12 18:59:58.915 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=2 res=0x1 s={true 484336889856} ch=false
+2021-07-12 18:59:59.310 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4bf7480
+2021-07-12 19:00:00.291 31229-31229/com.android.todolist D/ViewRootImpl@2fac997[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:00:00.347 31229-31229/com.android.todolist D/ViewRootImpl@2fac997[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:00:00.370 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7480 -> 0x0
+2021-07-12 19:00:00.370 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c4bf7480
+2021-07-12 19:00:00.370 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 19:00:00.374 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [1192x736] return
+2021-07-12 19:00:00.374 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 19:00:00.374 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x70b56fca50 disconnect failed
+2021-07-12 19:00:00.374 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x70b56fca40
+2021-07-12 19:00:00.374 31229-31263/com.android.todolist D/OpenGLRenderer: endAllActiveAnimators on 0x70c4ddc500 (RippleDrawable) with handle 0x70c16a8fa0
+2021-07-12 19:00:00.375 31229-31229/com.android.todolist D/ViewRootImpl@2fac997[MainActivity]: dispatchDetachedFromWindow
+2021-07-12 19:00:00.382 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: '6885948', fd=82
+2021-07-12 19:00:00.397 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x70c4bf7400
+2021-07-12 19:00:00.398 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 19:00:00.399 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 19:00:00.399 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:00:00.401 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 19:00:00.401 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:00:00.401 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:00:00.401 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:00:00.401 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:00:00.406 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=83
+2021-07-12 19:00:00.406 31229-31229/com.android.todolist E/ViewRootImpl: sendUserActionEvent() mView returned.
+2021-07-12 19:00:00.420 31229-31229/com.android.todolist W/IInputConnectionWrapper: requestCursorAnchorInfo on inactive InputConnection
+2021-07-12 19:00:00.480 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,126) vi=(0,90,0,126) or=1
+2021-07-12 19:00:00.501 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=6 res=0x1 s={true 484336889856} ch=false
+2021-07-12 19:00:01.728 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:00:01.791 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:00:01.808 31229-31229/com.android.todolist D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2021-07-12 19:00:01.813 31229-31229/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@6b4785a[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2021-07-12 19:00:01.813 31229-31229/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@6b4785a[]
+2021-07-12 19:00:01.828 31229-31229/com.android.todolist D/ScrollView: initGoToTop
+2021-07-12 19:00:01.838 31229-31229/com.android.todolist D/ViewRootImpl@c303fac[MainActivity]: setView = com.android.internal.policy.DecorView@6b4785a TM=true MM=false
+2021-07-12 19:00:01.854 31229-31229/com.android.todolist D/ViewRootImpl@c303fac[MainActivity]: Relayout returned: old=(0,90,1080,2154) new=(28,838,1052,1406) req=(1024,568)0 dur=5 res=0x7 s={true 484340719616} ch=true
+2021-07-12 19:00:01.854 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x71ba1dbdc0(0x70c4f4e000)
+2021-07-12 19:00:01.855 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [1192x736] return: 0x3000
+2021-07-12 19:00:01.859 31229-31229/com.android.todolist D/ScrollView:  onsize change changed
+2021-07-12 19:00:01.860 31229-31229/com.android.todolist E/DecorView: mWindow.mActivityCurrentConfig is null
+2021-07-12 19:00:01.867 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4b68b00
+2021-07-12 19:00:01.870 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4b68b00 -> 0x70c4bf7400
+2021-07-12 19:00:01.874 31229-31229/com.android.todolist D/ViewRootImpl@c303fac[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 19:00:01.874 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@6b4785a[MainActivity]
+2021-07-12 19:00:01.874 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:00:01.877 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@6b4785a[MainActivity]
+2021-07-12 19:00:01.877 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:00:01.877 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:00:01.877 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:00:01.877 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:00:01.880 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=80
+2021-07-12 19:00:01.883 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4b68b00
+2021-07-12 19:00:01.887 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4b68b00 -> 0x70c4bf7400
+2021-07-12 19:00:01.888 31229-31229/com.android.todolist D/ViewRootImpl@c303fac[MainActivity]: MSG_RESIZED: frame=(28,838,1052,1406) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-07-12 19:00:01.889 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-07-12 19:00:01.889 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 19:00:01.889 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:00:02.462 31229-31229/com.android.todolist D/ViewRootImpl@c303fac[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:00:02.476 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4b68b00
+2021-07-12 19:00:02.550 31229-31229/com.android.todolist D/ViewRootImpl@c303fac[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:00:02.555 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@6b4785a[MainActivity]
+2021-07-12 19:00:02.555 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:00:02.555 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=com.android.internal.widget.EditableInputConnection@234da74 mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:00:02.555 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:00:02.561 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:00:02.562 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=102
+2021-07-12 19:00:02.563 31229-31229/com.android.todolist D/InputMethodManager: SSI - flag : 0 Pid : 31229 view : com.android.todolist
+2021-07-12 19:00:02.563 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@6b4785a[MainActivity]
+2021-07-12 19:00:02.563 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:00:02.566 31229-31229/com.android.todolist D/Editor: waiting for the right moment
+2021-07-12 19:00:02.571 31229-31229/com.android.todolist E/ndroid.todolis: Invalid ID 0x00000000.
+2021-07-12 19:00:02.578 31229-31229/com.android.todolist I/AssistStructure: Flattened final assist data: 3200 bytes, containing 2 windows, 25 views
+2021-07-12 19:00:02.633 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,986) vi=(0,90,0,986) or=1
+2021-07-12 19:00:02.650 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=6 res=0x1 s={true 484336889856} ch=false
+2021-07-12 19:00:02.654 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4b68b00 -> 0x70c4bf7400
+2021-07-12 19:00:03.063 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x70c4b68b00
+2021-07-12 19:00:03.867 31229-31229/com.android.todolist D/ViewRootImpl@c303fac[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:00:03.973 31229-31229/com.android.todolist D/ViewRootImpl@c303fac[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:00:03.986 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4b68b00 -> 0x0
+2021-07-12 19:00:03.986 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c4b68b00
+2021-07-12 19:00:03.986 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 19:00:03.990 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [1192x736] return
+2021-07-12 19:00:03.990 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 19:00:03.990 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x71ba1dbdd0 disconnect failed
+2021-07-12 19:00:03.990 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x71ba1dbdc0
+2021-07-12 19:00:03.990 31229-31263/com.android.todolist D/OpenGLRenderer: endAllActiveAnimators on 0x70c5097e00 (RippleDrawable) with handle 0x7126d31200
+2021-07-12 19:00:03.990 31229-31229/com.android.todolist D/ViewRootImpl@c303fac[MainActivity]: dispatchDetachedFromWindow
+2021-07-12 19:00:03.996 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: '8305bd9', fd=82
+2021-07-12 19:00:04.010 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x70c4bf7400
+2021-07-12 19:00:04.010 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 19:00:04.011 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 19:00:04.011 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:00:04.012 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 19:00:04.012 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:00:04.012 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:00:04.012 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:00:04.012 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:00:04.018 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=83
+2021-07-12 19:00:04.019 31229-31229/com.android.todolist E/ViewRootImpl: sendUserActionEvent() mView returned.
+2021-07-12 19:00:04.040 31229-31229/com.android.todolist W/IInputConnectionWrapper: requestCursorAnchorInfo on inactive InputConnection
+2021-07-12 19:00:04.094 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,126) vi=(0,90,0,126) or=1
+2021-07-12 19:00:04.126 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=7 res=0x1 s={true 484336889856} ch=false
+2021-07-12 19:01:43.865 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:01:43.874 31229-31229/com.android.todolist D/ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:1.0
+2021-07-12 19:01:43.875 31229-31229/com.android.todolist D/ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:2.875
+2021-07-12 19:01:43.897 31229-31229/com.android.todolist D/ViewRootImpl: [ViewRootImpl] action cancel - 1, eccen:2.857143
+2021-07-12 19:01:43.945 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:01:43.945 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:01:43.996 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:01:44.087 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:01:44.378 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:01:44.658 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:01:44.659 31229-31229/com.android.todolist D/SmartClipRemoteRequestDispatcher: dispatchInputEventInjection : injection finished. Elapsed = 0
+2021-07-12 19:01:44.659 31229-31229/com.android.todolist D/SmartClipRemoteRequestDispatcher: dispatchInputEventInjection : injection finished. Elapsed = 0
+2021-07-12 19:01:44.666 31229-31229/com.android.todolist D/SmartClipRemoteRequestDispatcher: dispatchInputEventInjection : injection finished. Elapsed = 0
+2021-07-12 19:01:44.684 31229-31229/com.android.todolist D/SmartClipRemoteRequestDispatcher: dispatchInputEventInjection : injection finished. Elapsed = 1
+2021-07-12 19:01:44.699 31229-31229/com.android.todolist D/SmartClipRemoteRequestDispatcher: dispatchInputEventInjection : injection finished. Elapsed = 0
+2021-07-12 19:01:44.718 31229-31229/com.android.todolist D/SmartClipRemoteRequestDispatcher: dispatchInputEventInjection : injection finished. Elapsed = 0
+2021-07-12 19:01:44.734 31229-31229/com.android.todolist D/SmartClipRemoteRequestDispatcher: dispatchInputEventInjection : injection finished. Elapsed = 1
+2021-07-12 19:01:44.749 31229-31229/com.android.todolist D/SmartClipRemoteRequestDispatcher: dispatchInputEventInjection : injection finished. Elapsed = 0
+2021-07-12 19:01:44.932 31229-31229/com.android.todolist I/chatty: uid=10558(com.android.todolist) identical 9 lines
+2021-07-12 19:01:44.947 31229-31229/com.android.todolist D/SmartClipRemoteRequestDispatcher: dispatchInputEventInjection : injection finished. Elapsed = 0
+2021-07-12 19:01:44.965 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:01:44.966 31229-31229/com.android.todolist D/SmartClipRemoteRequestDispatcher: dispatchInputEventInjection : injection finished. Elapsed = 1
+2021-07-12 19:01:50.708 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-07-12 19:01:50.708 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@ef7cee9[MainActivity]
+2021-07-12 19:01:50.708 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:01:50.775 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=80
+2021-07-12 19:01:51.084 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4bf7400 -> 0x0
+2021-07-12 19:01:51.084 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c4bf7400
+2021-07-12 19:01:51.084 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 19:01:51.086 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [1080x2280] return
+2021-07-12 19:01:51.086 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 19:01:51.086 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x7126c1bf50 disconnect failed
+2021-07-12 19:01:51.086 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x7126c1bf40
+2021-07-12 19:01:51.093 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=5 res=0x5 s={false 0} ch=true
+2021-07-12 19:01:51.094 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: stopped(true) old=false
+2021-07-12 19:01:51.104 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=2 res=0x5 s={false 0} ch=false
+2021-07-12 19:02:10.751 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)4 dur=24 res=0x1 s={false 0} ch=false
+2021-07-12 19:02:10.767 31229-31229/com.android.todolist D/ViewRootImpl@e82b266[MainActivity]: dispatchDetachedFromWindow
+2021-07-12 19:02:10.771 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: '223bdbf', fd=86
+2021-07-12 19:02:10.796 31229-31229/com.android.todolist D/PhoneWindow: forceLight changed to true [] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4268 com.android.internal.policy.DecorView.updateColorViews:1494 com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged:3246 android.view.Window.setFlags:1148 com.android.internal.policy.PhoneWindow.generateLayout:2474
+2021-07-12 19:02:10.796 31229-31229/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@3fdc8a4[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+2021-07-12 19:02:10.796 31229-31229/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@3fdc8a4[]
+2021-07-12 19:02:10.844 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: setView = com.android.internal.policy.DecorView@3fdc8a4 TM=true MM=false
+2021-07-12 19:02:10.877 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=8 res=0x7 s={true 484342231040} ch=true
+2021-07-12 19:02:10.878 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x70b56fccc0(0x70c50bf000)
+2021-07-12 19:02:10.879 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [1080x2280] return: 0x3000
+2021-07-12 19:02:10.906 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x70c4beae80
+2021-07-12 19:02:10.933 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 19:02:10.933 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@3fdc8a4[MainActivity]
+2021-07-12 19:02:10.933 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:10.935 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@3fdc8a4[MainActivity]
+2021-07-12 19:02:10.935 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:10.935 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:02:10.935 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:02:10.935 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:02:10.943 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,126) vi=(0,90,0,126) or=1
+2021-07-12 19:02:10.946 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@3fdc8a4[MainActivity]
+2021-07-12 19:02:10.946 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:10.946 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:02:10.946 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:02:13.296 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:13.388 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:13.408 31229-31229/com.android.todolist D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2021-07-12 19:02:13.413 31229-31229/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@f8b4b26[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2021-07-12 19:02:13.413 31229-31229/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@f8b4b26[]
+2021-07-12 19:02:13.428 31229-31229/com.android.todolist D/ScrollView: initGoToTop
+2021-07-12 19:02:13.442 31229-31229/com.android.todolist D/ViewRootImpl@1a527b0[MainActivity]: setView = com.android.internal.policy.DecorView@f8b4b26 TM=true MM=false
+2021-07-12 19:02:13.460 31229-31229/com.android.todolist D/ViewRootImpl@1a527b0[MainActivity]: Relayout returned: old=(0,90,1080,2154) new=(28,838,1052,1406) req=(1024,568)0 dur=12 res=0x7 s={true 484339855360} ch=true
+2021-07-12 19:02:13.460 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x7126c1e100(0x70c4e7b000)
+2021-07-12 19:02:13.461 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [1192x736] return: 0x3000
+2021-07-12 19:02:13.462 31229-31229/com.android.todolist D/ScrollView:  onsize change changed
+2021-07-12 19:02:13.465 31229-31229/com.android.todolist E/DecorView: mWindow.mActivityCurrentConfig is null
+2021-07-12 19:02:13.467 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x70c4aeb900
+2021-07-12 19:02:13.469 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4aeb900 -> 0x70c4beae80
+2021-07-12 19:02:13.470 31229-31229/com.android.todolist D/ViewRootImpl@1a527b0[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 19:02:13.470 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@f8b4b26[MainActivity]
+2021-07-12 19:02:13.470 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:13.480 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@f8b4b26[MainActivity]
+2021-07-12 19:02:13.480 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:13.480 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:02:13.480 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:02:13.480 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:02:13.500 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=83
+2021-07-12 19:02:13.501 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x70c4aeb900
+2021-07-12 19:02:13.504 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4aeb900 -> 0x70c4beae80
+2021-07-12 19:02:13.504 31229-31229/com.android.todolist D/ViewRootImpl@1a527b0[MainActivity]: MSG_RESIZED: frame=(28,838,1052,1406) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-07-12 19:02:13.505 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-07-12 19:02:13.505 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@3fdc8a4[MainActivity]
+2021-07-12 19:02:13.505 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:14.171 31229-31229/com.android.todolist D/ViewRootImpl@1a527b0[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:14.175 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x70c4aeb900
+2021-07-12 19:02:14.255 31229-31229/com.android.todolist D/ViewRootImpl@1a527b0[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:14.260 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@f8b4b26[MainActivity]
+2021-07-12 19:02:14.260 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:14.261 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=com.android.internal.widget.EditableInputConnection@90a67f8 mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:02:14.261 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:02:14.265 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:02:14.267 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=88
+2021-07-12 19:02:14.267 31229-31229/com.android.todolist D/InputMethodManager: SSI - flag : 0 Pid : 31229 view : com.android.todolist
+2021-07-12 19:02:14.267 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@f8b4b26[MainActivity]
+2021-07-12 19:02:14.267 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:14.270 31229-31229/com.android.todolist D/Editor: waiting for the right moment
+2021-07-12 19:02:14.276 31229-31229/com.android.todolist E/ndroid.todolis: Invalid ID 0x00000000.
+2021-07-12 19:02:14.279 31229-31229/com.android.todolist I/AssistStructure: Flattened final assist data: 3200 bytes, containing 2 windows, 25 views
+2021-07-12 19:02:14.421 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,986) vi=(0,90,0,986) or=1
+2021-07-12 19:02:14.434 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=8 res=0x1 s={true 484342231040} ch=false
+2021-07-12 19:02:14.451 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4aeb900 -> 0x70c4beae80
+2021-07-12 19:02:14.757 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x70c4aeb900
+2021-07-12 19:02:16.025 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4aeb900 -> 0x70c4beae80
+2021-07-12 19:02:16.308 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x70c4aeb900
+2021-07-12 19:02:16.489 31229-31229/com.android.todolist D/ViewRootImpl@1a527b0[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:16.597 31229-31229/com.android.todolist D/ViewRootImpl@1a527b0[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:16.606 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4aeb900 -> 0x0
+2021-07-12 19:02:16.606 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c4aeb900
+2021-07-12 19:02:16.606 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 19:02:16.610 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [1192x736] return
+2021-07-12 19:02:16.610 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 19:02:16.610 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x7126c1e110 disconnect failed
+2021-07-12 19:02:16.610 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x7126c1e100
+2021-07-12 19:02:16.610 31229-31263/com.android.todolist D/OpenGLRenderer: endAllActiveAnimators on 0x70c49f8e00 (RippleDrawable) with handle 0x7126c55580
+2021-07-12 19:02:16.610 31229-31229/com.android.todolist D/ViewRootImpl@1a527b0[MainActivity]: dispatchDetachedFromWindow
+2021-07-12 19:02:16.615 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: '578dd26', fd=85
+2021-07-12 19:02:16.626 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x70c4beae80
+2021-07-12 19:02:16.626 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 19:02:16.627 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@3fdc8a4[MainActivity]
+2021-07-12 19:02:16.627 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:16.627 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@3fdc8a4[MainActivity]
+2021-07-12 19:02:16.627 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:16.627 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:02:16.628 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:02:16.628 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:02:16.631 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=86
+2021-07-12 19:02:16.631 31229-31229/com.android.todolist E/ViewRootImpl: sendUserActionEvent() mView returned.
+2021-07-12 19:02:16.646 31229-31229/com.android.todolist W/IInputConnectionWrapper: requestCursorAnchorInfo on inactive InputConnection
+2021-07-12 19:02:16.733 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,126) vi=(0,90,0,126) or=1
+2021-07-12 19:02:16.752 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=2 res=0x1 s={true 484342231040} ch=false
+2021-07-12 19:02:17.648 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:17.741 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:17.750 31229-31229/com.android.todolist D/Dialog: mIsSamsungBasicInteraction = false, isMetaDataInActivity = false
+2021-07-12 19:02:17.754 31229-31229/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@9194258[], isFloating: true, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: false
+2021-07-12 19:02:17.754 31229-31229/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@9194258[]
+2021-07-12 19:02:17.760 31229-31229/com.android.todolist D/ScrollView: initGoToTop
+2021-07-12 19:02:17.766 31229-31229/com.android.todolist D/ViewRootImpl@af77d7a[MainActivity]: setView = com.android.internal.policy.DecorView@9194258 TM=true MM=false
+2021-07-12 19:02:17.777 31229-31229/com.android.todolist D/ViewRootImpl@af77d7a[MainActivity]: Relayout returned: old=(0,90,1080,2154) new=(28,838,1052,1406) req=(1024,568)0 dur=7 res=0x7 s={true 484336865280} ch=true
+2021-07-12 19:02:17.777 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x70b56fd080(0x70c4ba1000)
+2021-07-12 19:02:17.778 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [1192x736] return: 0x3000
+2021-07-12 19:02:17.779 31229-31229/com.android.todolist D/ScrollView:  onsize change changed
+2021-07-12 19:02:17.780 31229-31229/com.android.todolist E/DecorView: mWindow.mActivityCurrentConfig is null
+2021-07-12 19:02:17.782 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x70c50dd380
+2021-07-12 19:02:17.784 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c50dd380 -> 0x70c4beae80
+2021-07-12 19:02:17.786 31229-31229/com.android.todolist D/ViewRootImpl@af77d7a[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 19:02:17.786 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@9194258[MainActivity]
+2021-07-12 19:02:17.786 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:17.787 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@9194258[MainActivity]
+2021-07-12 19:02:17.787 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:17.787 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:02:17.788 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:02:17.788 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:02:17.789 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=85
+2021-07-12 19:02:17.790 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x70c50dd380
+2021-07-12 19:02:17.790 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c50dd380 -> 0x70c4beae80
+2021-07-12 19:02:17.790 31229-31229/com.android.todolist D/ViewRootImpl@af77d7a[MainActivity]: MSG_RESIZED: frame=(28,838,1052,1406) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-07-12 19:02:17.791 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-07-12 19:02:17.791 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@3fdc8a4[MainActivity]
+2021-07-12 19:02:17.791 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:17.797 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x70c50dd380
+2021-07-12 19:02:17.809 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c50dd380 -> 0x70c4beae80
+2021-07-12 19:02:18.556 31229-31229/com.android.todolist D/ViewRootImpl@af77d7a[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:18.562 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x70c50dd380
+2021-07-12 19:02:18.575 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c50dd380 -> 0x70c4beae80
+2021-07-12 19:02:18.631 31229-31229/com.android.todolist D/ViewRootImpl@af77d7a[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:18.634 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@9194258[MainActivity]
+2021-07-12 19:02:18.634 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:18.634 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=com.android.internal.widget.EditableInputConnection@e5cc382 mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:02:18.634 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:02:18.638 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:02:18.639 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=88
+2021-07-12 19:02:18.639 31229-31229/com.android.todolist D/InputMethodManager: SSI - flag : 0 Pid : 31229 view : com.android.todolist
+2021-07-12 19:02:18.639 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@9194258[MainActivity]
+2021-07-12 19:02:18.639 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:18.642 31229-31229/com.android.todolist D/Editor: waiting for the right moment
+2021-07-12 19:02:18.645 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x70c50dd380
+2021-07-12 19:02:18.647 31229-31229/com.android.todolist E/ndroid.todolis: Invalid ID 0x00000000.
+2021-07-12 19:02:18.652 31229-31229/com.android.todolist I/AssistStructure: Flattened final assist data: 3200 bytes, containing 2 windows, 25 views
+2021-07-12 19:02:18.703 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,986) vi=(0,90,0,986) or=1
+2021-07-12 19:02:18.724 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=9 res=0x1 s={true 484342231040} ch=false
+2021-07-12 19:02:18.728 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c50dd380 -> 0x70c4beae80
+2021-07-12 19:02:19.143 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x70c50dd380
+2021-07-12 19:02:20.074 31229-31229/com.android.todolist D/ViewRootImpl@af77d7a[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:20.165 31229-31229/com.android.todolist D/ViewRootImpl@af77d7a[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:20.182 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c50dd380 -> 0x0
+2021-07-12 19:02:20.182 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c50dd380
+2021-07-12 19:02:20.182 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 19:02:20.185 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [1192x736] return
+2021-07-12 19:02:20.185 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 19:02:20.185 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x70b56fd090 disconnect failed
+2021-07-12 19:02:20.185 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x70b56fd080
+2021-07-12 19:02:20.185 31229-31263/com.android.todolist D/OpenGLRenderer: endAllActiveAnimators on 0x7095dc5800 (RippleDrawable) with handle 0x7126d108a0
+2021-07-12 19:02:20.186 31229-31229/com.android.todolist D/ViewRootImpl@af77d7a[MainActivity]: dispatchDetachedFromWindow
+2021-07-12 19:02:20.189 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: '5063817', fd=83
+2021-07-12 19:02:20.204 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x70c4beae80
+2021-07-12 19:02:20.204 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 19:02:20.204 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@3fdc8a4[MainActivity]
+2021-07-12 19:02:20.204 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:20.205 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@3fdc8a4[MainActivity]
+2021-07-12 19:02:20.205 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:20.205 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:02:20.205 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:02:20.205 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:02:20.210 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=86
+2021-07-12 19:02:20.210 31229-31229/com.android.todolist E/ViewRootImpl: sendUserActionEvent() mView returned.
+2021-07-12 19:02:20.286 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,126) vi=(0,90,0,126) or=1
+2021-07-12 19:02:20.297 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=3 res=0x1 s={true 484342231040} ch=false
+2021-07-12 19:02:21.833 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:21.883 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:21.891 31229-31229/com.android.todolist D/Toast: show: focusDisplayId = 0, isFocusInDesktop = false mCustomDisplayId=-1
+2021-07-12 19:02:21.895 31229-31798/com.android.todolist V/Toast: SHOW: android.widget.Toast$TN@635948a
+2021-07-12 19:02:21.904 31229-31229/com.android.todolist V/Toast: HANDLE SHOW: android.widget.Toast$TN@635948a mView=null mNextView=android.widget.LinearLayout{4ce7afb V.E...... ......I. 0,0-0,0}
+2021-07-12 19:02:21.904 31229-31229/com.android.todolist V/Toast: HANDLE HIDE: android.widget.Toast$TN@635948a mView=null
+2021-07-12 19:02:21.909 31229-31229/com.android.todolist D/ViewRootImpl@be06f56[Toast]: setView = android.widget.LinearLayout@4ce7afb TM=true MM=false
+2021-07-12 19:02:21.909 31229-31229/com.android.todolist V/Toast: Text: 2 in android.widget.Toast$TN@635948a
+2021-07-12 19:02:21.925 31229-31229/com.android.todolist D/ViewRootImpl@be06f56[Toast]: Relayout returned: old=(0,90,1080,2154) new=(463,1870,616,1986) req=(153,116)0 dur=5 res=0x7 s={true 483550912512} ch=true
+2021-07-12 19:02:21.925 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x711fdabe00(0x7095e16000)
+2021-07-12 19:02:21.926 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [153x116] return: 0x3000
+2021-07-12 19:02:21.927 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x70c4c88e00
+2021-07-12 19:02:21.929 31229-31229/com.android.todolist W/ActivityThread: handleWindowVisibility: no activity for token android.os.BinderProxy@64f7cc4
+2021-07-12 19:02:21.939 31229-31229/com.android.todolist D/PhoneWindow: forceLight changed to true [] from com.android.internal.policy.PhoneWindow.updateForceLightNavigationBar:4268 com.android.internal.policy.DecorView.updateColorViews:1494 com.android.internal.policy.PhoneWindow.dispatchWindowAttributesChanged:3246 android.view.Window.setFlags:1148 com.android.internal.policy.PhoneWindow.generateLayout:2474
+2021-07-12 19:02:21.940 31229-31229/com.android.todolist I/MultiWindowDecorSupport: updateCaptionType >> DecorView@529a130[], isFloating: false, isApplication: true, hasWindowDecorCaption: false, hasWindowControllerCallback: true
+2021-07-12 19:02:21.940 31229-31229/com.android.todolist D/MultiWindowDecorSupport: setCaptionType = 0, DecorView = DecorView@529a130[]
+2021-07-12 19:02:21.976 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: setView = com.android.internal.policy.DecorView@529a130 TM=true MM=false
+2021-07-12 19:02:21.979 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4c88e00 -> 0x70c4beae80
+2021-07-12 19:02:21.986 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=4 res=0x7 s={true 483550941184} ch=true
+2021-07-12 19:02:21.986 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x7126c1be00(0x7095e1d000)
+2021-07-12 19:02:21.986 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [1080x2280] return: 0x3000
+2021-07-12 19:02:21.991 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x7095e04100
+2021-07-12 19:02:21.996 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: MSG_WINDOW_FOCUS_CHANGED 0 1
+2021-07-12 19:02:21.996 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@3fdc8a4[MainActivity]
+2021-07-12 19:02:21.996 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:21.998 31229-31229/com.android.todolist D/ViewRootImpl@be06f56[Toast]: MSG_RESIZED: frame=(463,1870,616,1986) ci=(0,0,0,0) vi=(0,0,153,116) or=1
+2021-07-12 19:02:21.999 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x70c4beae80
+2021-07-12 19:02:22.000 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x7095e04100
+2021-07-12 19:02:22.004 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: MSG_WINDOW_FOCUS_CHANGED 1 1
+2021-07-12 19:02:22.005 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@529a130[ListActivity]
+2021-07-12 19:02:22.005 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:22.008 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@529a130[ListActivity]
+2021-07-12 19:02:22.008 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:22.009 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=null mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:02:22.009 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:02:22.009 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:02:22.010 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=83
+2021-07-12 19:02:22.012 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x70c4beae80
+2021-07-12 19:02:22.014 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x7095e04100
+2021-07-12 19:02:22.014 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,126) vi=(0,90,0,126) or=1
+2021-07-12 19:02:22.028 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x70c4beae80
+2021-07-12 19:02:22.029 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x7095e04100
+2021-07-12 19:02:22.044 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x70c4beae80
+2021-07-12 19:02:22.311 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x70c4beae80 -> 0x0
+2021-07-12 19:02:22.311 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c4beae80
+2021-07-12 19:02:22.311 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 19:02:22.316 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [1080x2280] return
+2021-07-12 19:02:22.316 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 19:02:22.317 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x70b56fccd0 disconnect failed
+2021-07-12 19:02:22.317 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x70b56fccc0
+2021-07-12 19:02:22.325 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=7 res=0x5 s={false 0} ch=true
+2021-07-12 19:02:22.325 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: stopped(true) old=false
+2021-07-12 19:02:22.348 31229-31229/com.android.todolist D/ViewRootImpl@97f0360[MainActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)8 dur=4 res=0x5 s={false 0} ch=false
+2021-07-12 19:02:23.595 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x7095e04100
+2021-07-12 19:02:23.895 31229-2174/com.android.todolist V/Toast: HIDE: android.widget.Toast$TN@635948a
+2021-07-12 19:02:23.895 31229-31229/com.android.todolist V/Toast: HANDLE HIDE: android.widget.Toast$TN@635948a mView=android.widget.LinearLayout{4ce7afb V.E...... ........ 0,0-153,116}
+2021-07-12 19:02:23.895 31229-31229/com.android.todolist V/Toast: REMOVE! android.widget.LinearLayout{4ce7afb V.E...... ........ 0,0-153,116} in android.widget.Toast$TN@635948a
+2021-07-12 19:02:23.895 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x70c4c88e00
+2021-07-12 19:02:23.895 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 19:02:23.897 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [153x116] return
+2021-07-12 19:02:23.897 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 19:02:23.897 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x711fdabe10 disconnect failed
+2021-07-12 19:02:23.897 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x711fdabe00
+2021-07-12 19:02:23.897 31229-31229/com.android.todolist D/ViewRootImpl@be06f56[Toast]: dispatchDetachedFromWindow
+2021-07-12 19:02:23.900 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: '9597448', fd=85
+2021-07-12 19:02:24.100 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:24.167 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:24.181 31229-31229/com.android.todolist D/InputMethodManager: SSI - flag : 1 Pid : 31229 view : com.android.todolist
+2021-07-12 19:02:24.184 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@529a130[ListActivity]
+2021-07-12 19:02:24.184 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:24.184 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=com.android.internal.widget.EditableInputConnection@135d25b mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:02:24.184 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:02:24.188 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:02:24.190 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=97
+2021-07-12 19:02:24.190 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@529a130[ListActivity]
+2021-07-12 19:02:24.190 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:24.206 31229-31229/com.android.todolist E/ndroid.todolis: Invalid ID 0x00000000.
+2021-07-12 19:02:24.208 31229-31229/com.android.todolist I/AssistStructure: Flattened final assist data: 1560 bytes, containing 1 windows, 10 views
+2021-07-12 19:02:25.601 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:25.652 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:25.652 31229-31229/com.android.todolist D/InputMethodManager: SSI - flag : 0 Pid : 31229 view : com.android.todolist
+2021-07-12 19:02:25.652 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@529a130[ListActivity]
+2021-07-12 19:02:25.652 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:25.665 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.845903, segmentPoints[0]=[0.000000,6.000000]
+2021-07-12 19:02:25.665 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=0.000000, approximation[2]=6.000000
+2021-07-12 19:02:25.665 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.845903, totalLength=8.845903, segmentPoints[4]=[-6.500000,0.000000]
+2021-07-12 19:02:25.665 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=-6.500000, approximation[14]=0.000000
+2021-07-12 19:02:25.666 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=4.500000, totalLength=4.500000, segmentPoints[4]=[4.500000,0.000000]
+2021-07-12 19:02:25.666 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=4.500000, approximation[14]=0.000000
+2021-07-12 19:02:25.667 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.000000, totalLength=8.000000, segmentPoints[4]=[-8.000000,0.000000]
+2021-07-12 19:02:25.667 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=-8.000000, approximation[14]=0.000000
+2021-07-12 19:02:25.667 31229-31229/com.android.todolist D/skia: approximate: numPoints=6, lengths[5]=11.000000, totalLength=11.000000, segmentPoints[5]=[9.000000,0.000000]
+2021-07-12 19:02:25.667 31229-31229/com.android.todolist D/skia: approximate: approximation[15]=1.000000, approximation[16]=9.000000, approximation[17]=0.000000
+2021-07-12 19:02:25.669 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.845903, segmentPoints[0]=[0.000000,-6.000000]
+2021-07-12 19:02:25.669 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=0.000000, approximation[2]=-6.000000
+2021-07-12 19:02:25.669 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.845903, totalLength=8.845903, segmentPoints[4]=[-6.500000,0.000000]
+2021-07-12 19:02:25.669 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=-6.500000, approximation[14]=0.000000
+2021-07-12 19:02:25.670 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=4.500000, totalLength=4.500000, segmentPoints[4]=[4.500000,0.000000]
+2021-07-12 19:02:25.670 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=4.500000, approximation[14]=0.000000
+2021-07-12 19:02:25.677 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.845903, segmentPoints[0]=[-6.500000,0.000000]
+2021-07-12 19:02:25.677 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=-6.500000, approximation[2]=0.000000
+2021-07-12 19:02:25.677 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.845903, totalLength=8.845903, segmentPoints[4]=[0.000000,6.000000]
+2021-07-12 19:02:25.677 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=6.000000
+2021-07-12 19:02:25.677 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=4.500000, segmentPoints[0]=[4.500000,0.000000]
+2021-07-12 19:02:25.677 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=4.500000, approximation[2]=0.000000
+2021-07-12 19:02:25.677 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=4.500000, totalLength=4.500000, segmentPoints[4]=[0.000000,0.000000]
+2021-07-12 19:02:25.677 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=0.000000
+2021-07-12 19:02:25.679 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.000000, segmentPoints[0]=[-8.000000,0.000000]
+2021-07-12 19:02:25.679 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=-8.000000, approximation[2]=0.000000
+2021-07-12 19:02:25.679 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.000000, totalLength=8.000000, segmentPoints[4]=[0.000000,0.000000]
+2021-07-12 19:02:25.679 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=0.000000
+2021-07-12 19:02:25.679 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=9.000000, segmentPoints[0]=[9.000000,0.000000]
+2021-07-12 19:02:25.680 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=9.000000, approximation[2]=0.000000
+2021-07-12 19:02:25.680 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=9.000000, totalLength=9.000000, segmentPoints[4]=[0.000000,0.000000]
+2021-07-12 19:02:25.680 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=0.000000
+2021-07-12 19:02:25.681 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.845903, segmentPoints[0]=[-6.500000,0.000000]
+2021-07-12 19:02:25.681 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=-6.500000, approximation[2]=0.000000
+2021-07-12 19:02:25.681 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.845903, totalLength=8.845903, segmentPoints[4]=[0.000000,-6.000000]
+2021-07-12 19:02:25.681 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=-6.000000
+2021-07-12 19:02:25.682 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=4.500000, segmentPoints[0]=[4.500000,0.000000]
+2021-07-12 19:02:25.682 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=4.500000, approximation[2]=0.000000
+2021-07-12 19:02:25.682 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=4.500000, totalLength=4.500000, segmentPoints[4]=[0.000000,0.000000]
+2021-07-12 19:02:25.682 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=0.000000
+2021-07-12 19:02:25.700 31229-31229/com.android.todolist D/TextView: latestClip type : TEXT
+2021-07-12 19:02:25.702 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.845903, segmentPoints[0]=[0.000000,6.000000]
+2021-07-12 19:02:25.702 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=0.000000, approximation[2]=6.000000
+2021-07-12 19:02:25.702 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.845903, totalLength=8.845903, segmentPoints[4]=[-6.500000,0.000000]
+2021-07-12 19:02:25.702 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=-6.500000, approximation[14]=0.000000
+2021-07-12 19:02:25.703 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=4.500000, totalLength=4.500000, segmentPoints[4]=[4.500000,0.000000]
+2021-07-12 19:02:25.703 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=4.500000, approximation[14]=0.000000
+2021-07-12 19:02:25.704 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.000000, totalLength=8.000000, segmentPoints[4]=[-8.000000,0.000000]
+2021-07-12 19:02:25.704 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=-8.000000, approximation[14]=0.000000
+2021-07-12 19:02:25.704 31229-31229/com.android.todolist D/skia: approximate: numPoints=6, lengths[5]=11.000000, totalLength=11.000000, segmentPoints[5]=[9.000000,0.000000]
+2021-07-12 19:02:25.704 31229-31229/com.android.todolist D/skia: approximate: approximation[15]=1.000000, approximation[16]=9.000000, approximation[17]=0.000000
+2021-07-12 19:02:25.706 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.845903, segmentPoints[0]=[0.000000,-6.000000]
+2021-07-12 19:02:25.706 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=0.000000, approximation[2]=-6.000000
+2021-07-12 19:02:25.706 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.845903, totalLength=8.845903, segmentPoints[4]=[-6.500000,0.000000]
+2021-07-12 19:02:25.706 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=-6.500000, approximation[14]=0.000000
+2021-07-12 19:02:25.706 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=4.500000, totalLength=4.500000, segmentPoints[4]=[4.500000,0.000000]
+2021-07-12 19:02:25.706 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=4.500000, approximation[14]=0.000000
+2021-07-12 19:02:25.708 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.845903, segmentPoints[0]=[-6.500000,0.000000]
+2021-07-12 19:02:25.708 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=-6.500000, approximation[2]=0.000000
+2021-07-12 19:02:25.708 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.845903, totalLength=8.845903, segmentPoints[4]=[0.000000,6.000000]
+2021-07-12 19:02:25.708 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=6.000000
+2021-07-12 19:02:25.708 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=4.500000, segmentPoints[0]=[4.500000,0.000000]
+2021-07-12 19:02:25.708 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=4.500000, approximation[2]=0.000000
+2021-07-12 19:02:25.708 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=4.500000, totalLength=4.500000, segmentPoints[4]=[0.000000,0.000000]
+2021-07-12 19:02:25.708 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=0.000000
+2021-07-12 19:02:25.710 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.000000, segmentPoints[0]=[-8.000000,0.000000]
+2021-07-12 19:02:25.710 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=-8.000000, approximation[2]=0.000000
+2021-07-12 19:02:25.710 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.000000, totalLength=8.000000, segmentPoints[4]=[0.000000,0.000000]
+2021-07-12 19:02:25.710 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=0.000000
+2021-07-12 19:02:25.710 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=9.000000, segmentPoints[0]=[9.000000,0.000000]
+2021-07-12 19:02:25.710 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=9.000000, approximation[2]=0.000000
+2021-07-12 19:02:25.710 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=9.000000, totalLength=9.000000, segmentPoints[4]=[0.000000,0.000000]
+2021-07-12 19:02:25.710 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=0.000000
+2021-07-12 19:02:25.712 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.845903, segmentPoints[0]=[-6.500000,0.000000]
+2021-07-12 19:02:25.712 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=-6.500000, approximation[2]=0.000000
+2021-07-12 19:02:25.712 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.845903, totalLength=8.845903, segmentPoints[4]=[0.000000,-6.000000]
+2021-07-12 19:02:25.712 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=-6.000000
+2021-07-12 19:02:25.712 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=4.500000, segmentPoints[0]=[4.500000,0.000000]
+2021-07-12 19:02:25.712 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=4.500000, approximation[2]=0.000000
+2021-07-12 19:02:25.712 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=4.500000, totalLength=4.500000, segmentPoints[4]=[0.000000,0.000000]
+2021-07-12 19:02:25.712 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=0.000000
+2021-07-12 19:02:25.726 31229-31229/com.android.todolist D/ViewRootImpl@331158b[PopupWindow:1092e7c]: setView = android.widget.PopupWindow$PopupDecorView@4f8b668 TM=true MM=false
+2021-07-12 19:02:25.743 31229-31229/com.android.todolist D/ViewRootImpl@331158b[PopupWindow:1092e7c]: Relayout returned: old=(0,90,1080,2154) new=(14,390,94,485) req=(80,95)0 dur=9 res=0x7 s={true 488453505024} ch=true
+2021-07-12 19:02:25.743 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x711fdabe00(0x71ba190000)
+2021-07-12 19:02:25.744 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [80x95] return: 0x3000
+2021-07-12 19:02:25.748 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x711ff85f80
+2021-07-12 19:02:25.753 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711ff85f80 -> 0x7095e04100
+2021-07-12 19:02:25.755 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x711ff85f80
+2021-07-12 19:02:25.756 31229-31229/com.android.todolist D/ViewRootImpl@331158b[PopupWindow:1092e7c]: MSG_RESIZED: frame=(14,390,94,485) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-07-12 19:02:25.789 31229-31229/com.android.todolist D/ViewRootImpl@cccf45f[PopupWindow:7d9ea80]: setView = android.widget.PopupWindow$PopupDecorView@6332eac TM=true MM=false
+2021-07-12 19:02:25.800 31229-31229/com.android.todolist D/ViewRootImpl@cccf45f[PopupWindow:7d9ea80]: Relayout returned: old=(0,90,1080,2154) new=(0,10,870,432) req=(870,422)0 dur=9 res=0x7 s={true 486059380736} ch=true
+2021-07-12 19:02:25.800 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x7126c1bf40(0x712b659000)
+2021-07-12 19:02:25.801 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [870x422] return: 0x3000
+2021-07-12 19:02:25.803 31229-31229/com.android.todolist D/AbsListView:  in onLayout changed
+2021-07-12 19:02:25.822 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711ff85f80 -> 0x711ff85f00
+2021-07-12 19:02:25.825 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711ff85f00 -> 0x711ff85f80
+2021-07-12 19:02:25.827 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,986) vi=(0,90,0,986) or=1
+2021-07-12 19:02:25.830 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711ff85f80 -> 0x711ff85f00
+2021-07-12 19:02:25.841 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=3 res=0x1 s={true 483550941184} ch=false
+2021-07-12 19:02:25.844 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711ff85f00 -> 0x7095e04100
+2021-07-12 19:02:25.846 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x711ff85f80
+2021-07-12 19:02:25.847 31229-31229/com.android.todolist D/ViewRootImpl@cccf45f[PopupWindow:7d9ea80]: MSG_RESIZED_REPORT: frame=(0,10,870,432) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-07-12 19:02:25.848 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711ff85f80 -> 0x711ff85f00
+2021-07-12 19:02:25.850 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711ff85f00 -> 0x711ff85f80
+2021-07-12 19:02:26.162 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711ff85f80 -> 0x7095e04100
+2021-07-12 19:02:26.680 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x711ff85f80
+2021-07-12 19:02:26.687 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711ff85f80 -> 0x7095e04100
+2021-07-12 19:02:26.703 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x711ff85f80
+2021-07-12 19:02:26.780 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711ff85f80 -> 0x0
+2021-07-12 19:02:26.780 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x711ff85f80
+2021-07-12 19:02:26.780 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 19:02:26.781 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [80x95] return
+2021-07-12 19:02:26.782 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 19:02:26.782 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x711fdabe10 disconnect failed
+2021-07-12 19:02:26.782 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x711fdabe00
+2021-07-12 19:02:26.782 31229-31229/com.android.todolist D/ViewRootImpl@331158b[PopupWindow:1092e7c]: dispatchDetachedFromWindow
+2021-07-12 19:02:26.785 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: '944479e', fd=85
+2021-07-12 19:02:26.850 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x711ff85f00
+2021-07-12 19:02:26.932 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711ff85f00 -> 0x0
+2021-07-12 19:02:26.932 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x711ff85f00
+2021-07-12 19:02:26.932 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 19:02:26.933 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [870x422] return
+2021-07-12 19:02:26.933 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 19:02:26.933 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x7126c1bf50 disconnect failed
+2021-07-12 19:02:26.933 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x7126c1bf40
+2021-07-12 19:02:26.933 31229-31229/com.android.todolist D/ViewRootImpl@cccf45f[PopupWindow:7d9ea80]: dispatchDetachedFromWindow
+2021-07-12 19:02:26.936 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'a509277', fd=90
+2021-07-12 19:02:27.196 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x7095e04100
+2021-07-12 19:02:27.427 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:27.486 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:27.486 31229-31229/com.android.todolist D/InputMethodManager: HSIFW - flag : 0
+2021-07-12 19:02:27.501 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@529a130[ListActivity]
+2021-07-12 19:02:27.501 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:27.501 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=com.android.internal.widget.EditableInputConnection@bf71f12 mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:02:27.501 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:02:27.502 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:02:27.504 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=82
+2021-07-12 19:02:27.513 31229-31229/com.android.todolist W/IInputConnectionWrapper: requestCursorAnchorInfo on inactive InputConnection
+2021-07-12 19:02:27.581 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,126) vi=(0,90,0,126) or=1
+2021-07-12 19:02:27.601 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=3 res=0x1 s={true 483550941184} ch=false
+2021-07-12 19:02:28.853 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:28.919 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:28.933 31229-31229/com.android.todolist D/InputMethodManager: SSI - flag : 1 Pid : 31229 view : com.android.todolist
+2021-07-12 19:02:28.933 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@529a130[ListActivity]
+2021-07-12 19:02:28.933 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:30.803 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:30.837 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:30.837 31229-31229/com.android.todolist D/InputMethodManager: SSI - flag : 0 Pid : 31229 view : com.android.todolist
+2021-07-12 19:02:30.838 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@529a130[ListActivity]
+2021-07-12 19:02:30.838 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:30.845 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.845903, segmentPoints[0]=[0.000000,6.000000]
+2021-07-12 19:02:30.846 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=0.000000, approximation[2]=6.000000
+2021-07-12 19:02:30.846 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.845903, totalLength=8.845903, segmentPoints[4]=[-6.500000,0.000000]
+2021-07-12 19:02:30.846 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=-6.500000, approximation[14]=0.000000
+2021-07-12 19:02:30.847 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=4.500000, totalLength=4.500000, segmentPoints[4]=[4.500000,0.000000]
+2021-07-12 19:02:30.847 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=4.500000, approximation[14]=0.000000
+2021-07-12 19:02:30.849 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.000000, totalLength=8.000000, segmentPoints[4]=[-8.000000,0.000000]
+2021-07-12 19:02:30.849 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=-8.000000, approximation[14]=0.000000
+2021-07-12 19:02:30.850 31229-31229/com.android.todolist D/skia: approximate: numPoints=6, lengths[5]=11.000000, totalLength=11.000000, segmentPoints[5]=[9.000000,0.000000]
+2021-07-12 19:02:30.850 31229-31229/com.android.todolist D/skia: approximate: approximation[15]=1.000000, approximation[16]=9.000000, approximation[17]=0.000000
+2021-07-12 19:02:30.852 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.845903, segmentPoints[0]=[0.000000,-6.000000]
+2021-07-12 19:02:30.852 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=0.000000, approximation[2]=-6.000000
+2021-07-12 19:02:30.852 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.845903, totalLength=8.845903, segmentPoints[4]=[-6.500000,0.000000]
+2021-07-12 19:02:30.852 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=-6.500000, approximation[14]=0.000000
+2021-07-12 19:02:30.853 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=4.500000, totalLength=4.500000, segmentPoints[4]=[4.500000,0.000000]
+2021-07-12 19:02:30.853 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=4.500000, approximation[14]=0.000000
+2021-07-12 19:02:30.855 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.845903, segmentPoints[0]=[-6.500000,0.000000]
+2021-07-12 19:02:30.855 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=-6.500000, approximation[2]=0.000000
+2021-07-12 19:02:30.855 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.845903, totalLength=8.845903, segmentPoints[4]=[0.000000,6.000000]
+2021-07-12 19:02:30.855 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=6.000000
+2021-07-12 19:02:30.856 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=4.500000, segmentPoints[0]=[4.500000,0.000000]
+2021-07-12 19:02:30.856 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=4.500000, approximation[2]=0.000000
+2021-07-12 19:02:30.856 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=4.500000, totalLength=4.500000, segmentPoints[4]=[0.000000,0.000000]
+2021-07-12 19:02:30.856 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=0.000000
+2021-07-12 19:02:30.857 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.000000, segmentPoints[0]=[-8.000000,0.000000]
+2021-07-12 19:02:30.857 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=-8.000000, approximation[2]=0.000000
+2021-07-12 19:02:30.857 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.000000, totalLength=8.000000, segmentPoints[4]=[0.000000,0.000000]
+2021-07-12 19:02:30.857 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=0.000000
+2021-07-12 19:02:30.857 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=9.000000, segmentPoints[0]=[9.000000,0.000000]
+2021-07-12 19:02:30.857 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=9.000000, approximation[2]=0.000000
+2021-07-12 19:02:30.857 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=9.000000, totalLength=9.000000, segmentPoints[4]=[0.000000,0.000000]
+2021-07-12 19:02:30.857 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=0.000000
+2021-07-12 19:02:30.858 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=8.845903, segmentPoints[0]=[-6.500000,0.000000]
+2021-07-12 19:02:30.858 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=-6.500000, approximation[2]=0.000000
+2021-07-12 19:02:30.858 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=8.845903, totalLength=8.845903, segmentPoints[4]=[0.000000,-6.000000]
+2021-07-12 19:02:30.858 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=-6.000000
+2021-07-12 19:02:30.858 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[0]=0.000000, totalLength=4.500000, segmentPoints[0]=[4.500000,0.000000]
+2021-07-12 19:02:30.858 31229-31229/com.android.todolist D/skia: approximate: approximation[0]=0.000000, approximation[1]=4.500000, approximation[2]=0.000000
+2021-07-12 19:02:30.858 31229-31229/com.android.todolist D/skia: approximate: numPoints=5, lengths[4]=4.500000, totalLength=4.500000, segmentPoints[4]=[0.000000,0.000000]
+2021-07-12 19:02:30.858 31229-31229/com.android.todolist D/skia: approximate: approximation[12]=1.000000, approximation[13]=0.000000, approximation[14]=0.000000
+2021-07-12 19:02:30.874 31229-31229/com.android.todolist D/TextView: latestClip type : TEXT
+2021-07-12 19:02:30.887 31229-31229/com.android.todolist D/ViewRootImpl@5902942[PopupWindow:1092e7c]: setView = android.widget.PopupWindow$PopupDecorView@5ffdd53 TM=true MM=false
+2021-07-12 19:02:30.905 31229-31229/com.android.todolist D/ViewRootImpl@5902942[PopupWindow:1092e7c]: Relayout returned: old=(0,90,1080,2154) new=(14,390,94,485) req=(80,95)0 dur=7 res=0x7 s={true 485867024384} ch=true
+2021-07-12 19:02:30.905 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x711fdaba40(0x711fee7000)
+2021-07-12 19:02:30.906 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [80x95] return: 0x3000
+2021-07-12 19:02:30.908 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x711fee9900
+2021-07-12 19:02:30.916 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9900 -> 0x7095e04100
+2021-07-12 19:02:30.919 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x711fee9900
+2021-07-12 19:02:30.920 31229-31229/com.android.todolist D/ViewRootImpl@5902942[PopupWindow:1092e7c]: MSG_RESIZED: frame=(14,390,94,485) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-07-12 19:02:30.957 31229-31229/com.android.todolist D/ViewRootImpl@28ba3cb[PopupWindow:414abbc]: setView = android.widget.PopupWindow$PopupDecorView@b5ec7a8 TM=true MM=false
+2021-07-12 19:02:30.975 31229-31229/com.android.todolist D/ViewRootImpl@28ba3cb[PopupWindow:414abbc]: Relayout returned: old=(0,90,1080,2154) new=(0,10,870,432) req=(870,422)0 dur=14 res=0x7 s={true 485867163648} ch=true
+2021-07-12 19:02:30.975 31229-31263/com.android.todolist D/OpenGLRenderer: createReliableSurface : 0x70b56fc7c0(0x711ff09000)
+2021-07-12 19:02:30.976 31229-31263/com.android.todolist I/mali_winsys: new_window_surface() [870x422] return: 0x3000
+2021-07-12 19:02:30.979 31229-31229/com.android.todolist D/AbsListView:  in onLayout changed
+2021-07-12 19:02:30.982 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9900 -> 0x711fee9a80
+2021-07-12 19:02:30.985 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9a80 -> 0x711fee9900
+2021-07-12 19:02:30.987 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,986) vi=(0,90,0,986) or=1
+2021-07-12 19:02:30.988 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9900 -> 0x711fee9a80
+2021-07-12 19:02:30.995 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=4 res=0x1 s={true 483550941184} ch=false
+2021-07-12 19:02:30.999 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9a80 -> 0x7095e04100
+2021-07-12 19:02:31.001 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x711fee9900
+2021-07-12 19:02:31.002 31229-31229/com.android.todolist D/ViewRootImpl@28ba3cb[PopupWindow:414abbc]: MSG_RESIZED_REPORT: frame=(0,10,870,432) ci=(0,0,0,0) vi=(0,0,0,0) or=1
+2021-07-12 19:02:31.004 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9900 -> 0x711fee9a80
+2021-07-12 19:02:31.006 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9a80 -> 0x711fee9900
+2021-07-12 19:02:31.008 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9900 -> 0x7095e04100
+2021-07-12 19:02:31.015 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x711fee9900
+2021-07-12 19:02:31.020 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9900 -> 0x711fee9a80
+2021-07-12 19:02:31.033 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9a80 -> 0x711fee9900
+2021-07-12 19:02:31.348 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9900 -> 0x7095e04100
+2021-07-12 19:02:31.748 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x711fee9900
+2021-07-12 19:02:31.759 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9900 -> 0x7095e04100
+2021-07-12 19:02:31.774 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x711fee9900
+2021-07-12 19:02:31.787 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9900 -> 0x7095e04100
+2021-07-12 19:02:31.799 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x7095e04100 -> 0x711fee9900
+2021-07-12 19:02:31.849 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9900 -> 0x0
+2021-07-12 19:02:31.849 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x711fee9900
+2021-07-12 19:02:31.849 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 19:02:31.850 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [80x95] return
+2021-07-12 19:02:31.850 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 19:02:31.850 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x711fdaba50 disconnect failed
+2021-07-12 19:02:31.850 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x711fdaba40
+2021-07-12 19:02:31.850 31229-31229/com.android.todolist D/ViewRootImpl@5902942[PopupWindow:1092e7c]: dispatchDetachedFromWindow
+2021-07-12 19:02:31.854 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'bda9f3b', fd=83
+2021-07-12 19:02:31.918 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x711fee9a80
+2021-07-12 19:02:31.999 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x711fee9a80 -> 0x0
+2021-07-12 19:02:31.999 31229-31263/com.android.todolist D/OpenGLRenderer: destroyEglSurface : 0x711fee9a80
+2021-07-12 19:02:31.999 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() in
+2021-07-12 19:02:32.001 31229-31263/com.android.todolist I/mali_winsys: delete_surface() [870x422] return
+2021-07-12 19:02:32.001 31229-31263/com.android.todolist I/mali_egl: eglDestroySurface() out
+2021-07-12 19:02:32.001 31229-31263/com.android.todolist W/libEGL: EGLNativeWindowType 0x70b56fc7d0 disconnect failed
+2021-07-12 19:02:32.001 31229-31263/com.android.todolist D/OpenGLRenderer: ~ReliableSurface : 0x70b56fc7c0
+2021-07-12 19:02:32.001 31229-31229/com.android.todolist D/ViewRootImpl@28ba3cb[PopupWindow:414abbc]: dispatchDetachedFromWindow
+2021-07-12 19:02:32.004 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'bc9a022', fd=90
+2021-07-12 19:02:32.266 31229-31263/com.android.todolist D/OpenGLRenderer: makeCurrent EglSurface : 0x0 -> 0x7095e04100
+2021-07-12 19:02:32.405 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: ViewPostIme pointer 0
+2021-07-12 19:02:32.454 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: ViewPostIme pointer 1
+2021-07-12 19:02:32.455 31229-31229/com.android.todolist D/InputMethodManager: HSIFW - flag : 0
+2021-07-12 19:02:32.464 31229-31229/com.android.todolist D/InputMethodManager: prepareNavigationBarInfo() DecorView@529a130[ListActivity]
+2021-07-12 19:02:32.464 31229-31229/com.android.todolist D/InputMethodManager: getNavigationBarColor() -855310
+2021-07-12 19:02:32.464 31229-31229/com.android.todolist V/InputMethodManager: Starting input: tba=com.android.todolist ic=com.android.internal.widget.EditableInputConnection@2371c25 mNaviBarColor -855310 mIsGetNaviBarColorSuccess true , NavVisible : true , NavTrans : false
+2021-07-12 19:02:32.464 31229-31229/com.android.todolist D/InputMethodManager: startInputInner - Id : 0
+2021-07-12 19:02:32.465 31229-31229/com.android.todolist I/InputMethodManager: startInputInner - mService.startInputOrWindowGainedFocus
+2021-07-12 19:02:32.473 31229-31229/com.android.todolist D/InputTransport: Input channel destroyed: 'ClientS', fd=85
+2021-07-12 19:02:32.481 31229-31229/com.android.todolist W/IInputConnectionWrapper: requestCursorAnchorInfo on inactive InputConnection
+2021-07-12 19:02:32.551 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: MSG_RESIZED: frame=(0,0,1080,2280) ci=(0,90,0,126) vi=(0,90,0,126) or=1
+2021-07-12 19:02:32.570 31229-31229/com.android.todolist D/ViewRootImpl@53dc75f[ListActivity]: Relayout returned: old=(0,0,1080,2280) new=(0,0,1080,2280) req=(1080,2280)0 dur=3 res=0x1 s={true 483550941184} ch=false
+
